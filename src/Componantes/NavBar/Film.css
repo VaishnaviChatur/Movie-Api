@@ -1,0 +1,64 @@
+.btn {
+    background-color: rgb(127, 49, 49);
+    border: 2px solid white;
+    color: white;
+    box-shadow: 2px 2px 4px 4px wheat;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.btn:hover {
+    background: red;
+}
+
+body {
+    background: #141414;
+    color: #ffffff;
+}
+
+.movie-app>.row {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    height: 65vh;
+    /* width: 100vw; */
+}
+
+.image-container {
+    position: relative;
+    transition: transform 0.2s;
+    justify-content: center;
+    width: 80vw;
+}
+
+.image-container:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px 8px white;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    background: pink;
+    width: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+    bottom: 0;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 4px 4px 8px 8px white;
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+}

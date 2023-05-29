@@ -1,0 +1,27 @@
+.cartCount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav {
+    display: flex;
+    background-color: aquamarine;
+    margin-top: 0%;
+    height: 60px;
+    color: black;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.li {
+    color: black;
+    padding: 5x;
+    justify-content: space-between;
+}
